@@ -561,6 +561,7 @@ footer {
   height: 40px;
   margin-bottom: 24px;
 }
+
 @media (max-width: 576px) {
   .nav-sec {
     background-color: white;
@@ -662,7 +663,7 @@ footer {
     left: -12px;
     z-index: 1;
   }
-  cta-mockups {
+  .cta-mockups {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -674,12 +675,13 @@ footer {
   .mockup {
     position: static;
     width: 100%;
+    padding-top: 40px;
     max-width: 260px;
     height: auto;
     transform: none;
   }
   .mockup-2 {
-    max-width: 260px;
+    display: none;
   }
 }
 
@@ -804,7 +806,6 @@ footer {
     gap: 20px;
   }
 
-  
   .mockup-2 {
     position: static;
     width: 100%;
