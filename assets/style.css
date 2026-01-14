@@ -102,7 +102,6 @@ strong {
 }
 
 .marquee-item img {
-  /* height: 10px; */
   width: auto;
   display: block;
 }
@@ -359,6 +358,8 @@ strong {
 /* HEADER / QUOTE */
 .stories-header {
   position: relative;
+  display: flex;
+  justify-content: center;
   margin-bottom: 64px;
 }
 
