@@ -673,6 +673,9 @@ footer {
     left: -12px;
     z-index: 1;
   }
+  .cta-features{
+    font-size: 35px;
+  }
   .cta-mockups {
     display: flex;
     flex-direction: column;
