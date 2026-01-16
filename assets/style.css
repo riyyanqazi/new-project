@@ -142,7 +142,8 @@ strong {
   letter-spacing: 0%;
 }
 .tailor-sec {
-  row-gap: 40px;
+padding-top: 48px;
+row-gap: 64px;
 }
 .testimonial {
   background: #ffffff;
@@ -714,6 +715,9 @@ footer {
     height: auto;
     transform: none;
   }
+  .mockup-1{
+    display: block;
+  }
   .mockup-2 {
     display: none;
   }
@@ -849,5 +853,21 @@ footer {
     max-width: 300px;
     height: auto;
     transform: none;
+  }
+}
+.stat-item {
+  flex: 0 0 50%;
+}
+
+@media (max-width: 406px) {
+  .stat-item {
+    font-size: 10px;
+    flex: 0 0 100%;
+  }
+  .num{
+    font-size: 20px;
+  }
+  .num-label{
+    font-size: 13px;
   }
 }
