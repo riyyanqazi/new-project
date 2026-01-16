@@ -381,7 +381,6 @@ row-gap: 64px;
 .quote-lg {
   position: absolute;
   top: -60px;
-  left: 34px;
   z-index: 2;
 }
 
@@ -587,7 +586,19 @@ footer {
   margin-bottom: 24px;
 }
 
+@media (min-width:576px) {
+  
+  
+}
 @media (max-width: 576px) {
+
+  
+  .quote-lg{
+      height: 100px;
+    left: -180px;
+    top: -38px;
+  }
+
   .nav-sec {
     background-color: white;
   }
@@ -776,10 +787,13 @@ footer {
   }
 
   .quote-lg {
+
     position: absolute;
     z-index: 1;
   }
-
+.quote{
+  left: 100px;
+}
   .testimonial-card {
     max-width: 445px;
   }
@@ -834,6 +848,11 @@ footer {
 }
 
 @media (max-width: 991px) and (min-width: 577px) {
+    .quote-lg{
+left:-100px;
+    }
+
+
   .cta-mockups {
     display: flex;
     flex-direction: column;
